@@ -18,34 +18,34 @@ function loadBoard(){
     if(i==1){
       for(let j = 1; j<=15;j++){
         if(j==1){
-          html+=`<img src="/icons/upperleftcorner.png" class="img" id=${i+"&"+j}>`;
+          html+=`<img src="./icons/upperleftcorner.png" class="img" id=${i+"&"+j}>`;
         }else if(j==15){
-          html+=`<img src="/icons/upperrightcorner.png" class="img" id=${i+"&"+j}>`;
+          html+=`<img src="./icons/upperrightcorner.png" class="img" id=${i+"&"+j}>`;
         }
         else{
-          html+=`<img src="/icons/upperboundary.png" class="img" id=${i+"&"+j}>`;
+          html+=`<img src="./icons/upperboundary.png" class="img" id=${i+"&"+j}>`;
         }
       }    
     }else if(i==15){
       for(let j = 1; j<=15;j++){
         if(j==1){
-          html+=`<img src="/icons/bottomleftcorner.png" class="img" id=${i+"&"+j}>`;
+          html+=`<img src="./icons/bottomleftcorner.png" class="img" id=${i+"&"+j}>`;
         }else if(j==15){
-          html+=`<img src="/icons/bottomrightcorner.png" class="img" id=${i+"&"+j}>`;
+          html+=`<img src="./icons/bottomrightcorner.png" class="img" id=${i+"&"+j}>`;
         }
         else{
-          html+=`<img src="/icons/bottomboundary.png" class="img" id=${i+"&"+j}>`;
+          html+=`<img src="./icons/bottomboundary.png" class="img" id=${i+"&"+j}>`;
         }
       } 
     }else{
       for(let j = 1; j<=15;j++){
         if(j==1){
-          html+=`<img src="/icons/leftboundary.png" class="img" id=${i+"&"+j}>`;
+          html+=`<img src="./icons/leftboundary.png" class="img" id=${i+"&"+j}>`;
         }else if(j==15){
-          html+=`<img src="/icons/rightboundary.png" class="img" id=${i+"&"+j}>`;
+          html+=`<img src="./icons/rightboundary.png" class="img" id=${i+"&"+j}>`;
         }
         else{
-          html+=`<img src="/icons/normal.png" class="img" id=${i+"&"+j}>`;
+          html+=`<img src="./icons/normal.png" class="img" id=${i+"&"+j}>`;
         }
       }
     }
