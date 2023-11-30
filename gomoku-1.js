@@ -69,6 +69,7 @@ document.querySelector("#reset").addEventListener("click", ()=>{
 
 function StartPlay(){
   let showInfo=document.querySelector("#showInfo");
+  currentButton=0;
   showInfo.innerHTML = "Black Button's turn!"
   document.querySelector(".grid-container").addEventListener("click", AddButton);
   document.querySelector("#start").removeEventListener("click", StartPlay);
