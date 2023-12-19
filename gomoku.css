@@ -1,11 +1,18 @@
 .main-container{
-  display: grid;
+  display: flex;
+  /*display: grid;
   grid: template columns 1fr, 6fr, 1fr;
+  */
+}
+
+.marginArea{
+  flex: 1;
 }
 .container{
   height: 1vh;
 }
 .grid-container{
+  flex:2;
   width:100%;
   display: grid;
   grid-template-columns: repeat(15,1fr);
